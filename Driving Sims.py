@@ -15,19 +15,10 @@ def s1():
 def v1():
     v = math.sqrt(u**2 + (2 * a * sdist))
     return v
-def duration():
-    for x in range(0,t):(repr(x))
-def distance():
-    for y in range(0,t):
-        s = srun() /10
-        y = "*"
-        z = s * y
-        return z
-T=0
-while(T<=t):
-    groundslam = u + (a * T)
-    print("Duration:",T,"  Distance:","*"*(groundslam * T),)
-    T = T + 1
+for i in range(0,t+1):
+    fastah = a * i
+    distance = 1/2*i*fastah
+    print("Duration:",i,"  Distance:","*"*int(distance /10),)
 for i in range(1):
     if (v(),v1() >= 60) :
         print("The person went over the speed limit. (Max speed was",v(),"m/s)")
@@ -39,7 +30,7 @@ for i in range(1):
     else:
         print("The person did not reach the destination. (Reached",srun(),"m)")
 
-print("* indicates 1 m")
+print("* indicates 10 m")
 
 
 
